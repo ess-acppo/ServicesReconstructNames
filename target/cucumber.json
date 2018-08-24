@@ -1,0 +1,110 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4670429,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfter.GlobalTestSetup(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 48926939437,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SmokeTest.Setup(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Visit the page",
+        "description": "",
+        "id": "---------smoke-tests-services-----------;visit-the-page",
+        "after": [
+          {
+            "result": {
+              "duration": 53550,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SmokeTest.teardown(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 640900028,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfter.GlobalTestTearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6383381201,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is logged in",
+            "match": {
+              "location": "SmokeTest.user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6339960409,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user as admin clicks on Reconstruct name strings",
+            "match": {
+              "location": "SmokeTest.user_as_admin_clicks_on_Reconstruct_name_strings()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15181812908,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Name Strings are generated",
+            "match": {
+              "location": "SmokeTest.name_Strings_are_generated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Feature"
+          }
+        ]
+      }
+    ],
+    "name": "---------SMOKE TESTS SERVICES ----------",
+    "description": "",
+    "id": "---------smoke-tests-services-----------",
+    "keyword": "Feature",
+    "uri": "SmokeTest.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Feature"
+      }
+    ]
+  }
+]

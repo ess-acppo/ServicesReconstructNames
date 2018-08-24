@@ -1,0 +1,8 @@
+@Feature
+Feature: ---------SMOKE TESTS SERVICES ----------
+
+  @Feature
+  Scenario: Visit the page                                [90m# SmokeTest.feature:5[0m
+    [32mGiven [0m[32mUser is logged in[0m                               [90m# SmokeTest.user_is_logged_in()[0m
+    [32mWhen [0m[32muser as admin clicks on Reconstruct name strings[0m [90m# SmokeTest.user_as_admin_clicks_on_Reconstruct_name_strings()[0m
+    [32mThen [0m[32mName Strings are generated[0m                       [90m# SmokeTest.name_Strings_are_generated()[0m
