@@ -1,5 +1,5 @@
 #surefire
-#Fri Aug 24 14:37:17 AEST 2018
+#Fri Aug 24 14:51:40 AEST 2018
 tc.1=com.cucmber.BNTiServices.RunnerTest
 tc.2=com.cucmber.BNTiServices.SmokeTest
 tc.0=com.cucmber.BNTiServices.EncryptTest

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="77.477718">
-<testcase classname="---------SMOKE TESTS SERVICES ----------" name="Visit the page" time="77.477718">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="42.089659">
+<testcase classname="---------SMOKE TESTS SERVICES ----------" name="Visit the page" time="42.089659">
 <system-out><![CDATA[Given User is logged in.....................................................passed
 When user as admin clicks on Reconstruct name strings.......................passed
 Then Name Strings are generated.............................................passed

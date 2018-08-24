@@ -13,11 +13,11 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 4670429,
+  "duration": 2574849,
   "status": "passed"
 });
 formatter.before({
-  "duration": 48926939437,
+  "duration": 18117953525,
   "status": "passed"
 });
 formatter.scenario({
@@ -53,29 +53,29 @@ formatter.match({
   "location": "SmokeTest.user_is_logged_in()"
 });
 formatter.result({
-  "duration": 6383381201,
+  "duration": 4044051787,
   "status": "passed"
 });
 formatter.match({
   "location": "SmokeTest.user_as_admin_clicks_on_Reconstruct_name_strings()"
 });
 formatter.result({
-  "duration": 6339960409,
+  "duration": 4268429583,
   "status": "passed"
 });
 formatter.match({
   "location": "SmokeTest.name_Strings_are_generated()"
 });
 formatter.result({
-  "duration": 15181812908,
+  "duration": 15076252573,
   "status": "passed"
 });
 formatter.after({
-  "duration": 53550,
+  "duration": 99959,
   "status": "passed"
 });
 formatter.after({
-  "duration": 640900028,
+  "duration": 580296915,
   "status": "passed"
 });
 });
